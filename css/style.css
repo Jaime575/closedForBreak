@@ -66,7 +66,7 @@ body{
 }
 
 .italianno-regular {
-    background-color: gray;
+    background-color: grey;
   font-family: "Italianno", cursive;
   font-weight: 400;
   font-style: normal;
@@ -76,4 +76,23 @@ body{
   font-family: "Bubblegum Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.closed h1 {
+    background-color: #ccc;
+    width:300px;
+    padding:5px 0;
+    margin-bottom: 18px;
+    font-family:italianno-regular;
+}
+
+.closed p,closed h2 {
+    background-color: #fff;;
+    width:300px;
+    font-size:35px;
+    line-height: .02;
+    font-family:bubblegum-sans-regular;
+}
+.closed p{
+    font-size: 15px;
+
 }
